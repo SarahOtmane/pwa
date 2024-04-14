@@ -79,10 +79,10 @@ function displayResults(results) {
             const { show } = result;
             const resultDiv = document.createElement('div');
             resultDiv.innerHTML = `
-                    <h2>${show.name}</h2>
-                    <img src="${show.image? show.image.medium : ''}" alt="${show.name}">
-                    <p'>${show.summary || 'Aucun synopsis disponible.'}</p>
-                    <a href="details.html?id=${show.id}">Voir les détails</a>
+                <h2>${show.name}</h2>
+                <img src="${show.image? show.image.medium : ''}" alt="${show.name}">
+                <p>${show.summary || 'Aucun synopsis disponible.'}</p>
+                <a href="details.html?id=${show.id}">Voir les détails</a>
             `;
             resultsDiv.appendChild(resultDiv);
         }); 

@@ -1,0 +1,27 @@
+html, body {
+    background-color: #000000;
+}
+
+h1, h2, p{
+    color: white;
+}
+
+#results div{
+    border: 1px solid white;
+    margin: 2rem .5rem;
+    padding: 2rem 0;
+    width: 45%;
+    text-align: center;
+}
+
+#results div h2{
+   font-size: 3rem;
+}
+
+#results div p{
+    margin: 2rem;
+}
+
+a{
+    color: #817f7f;
+}
